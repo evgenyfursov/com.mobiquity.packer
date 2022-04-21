@@ -1,1 +1,2 @@
-# com.mobiquity.packer
+# Package Challenge
+This is a well known 0-1 knapsack problem. The knapsack problem belongs to the class of NP-complete ones, and so far no polynomial algorithm. Several algorithms are available to solve knapsack problems, based on the dynamic programming approach, the branch and bound approach or hybridizations. An implementation based on dynamic programming has been chosen, because it runs in pseudo-polynomial time when there are additional restrictions on the weights of things, and we have conditions that the maximum weight of the item is ≤ 100. But we need the weight of each item to be a positive integer. Therefore, based on the test data, it was decided to multiply all the weights by 100.
